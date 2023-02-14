@@ -36,7 +36,7 @@ Tips:
 
    ```bash
    git clone -b main --single-branch https://github.com/tangyl2000/ipq6018.git
-   cd ipq6000
+   cd ipq6018
    ./scripts/feeds update -a && ./scripts/feeds install -a
    make menuconfig
    ```
@@ -52,7 +52,7 @@ Tips:
 5. 二次编译：
 
    ```bash
-   cd ipq6000
+   cd ipq6018
    git fetch && git reset --hard origin/main
    ./scripts/feeds update -a && ./scripts/feeds install -a
    make defconfig
