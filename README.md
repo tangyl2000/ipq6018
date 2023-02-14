@@ -4,8 +4,10 @@
 
 Tips:
 1. 推荐使用main分支，其他分支不保证正常使用。  
-2. 默认没有WiFi，如果你需要使用WiFi建议使用QSDK。  
+2. 没有WiFi，如果你需要使用WiFi建议使用QSDK。  
 3. 本源码不保证可以编译任意IPK，IPK功能及编译方面的问题请自行解决。  
+
+## !!!20230214---v2ray-core 5.3.0源码貌似权限有问题，编译时会提示777权限有误。手动替换为immortalwrt/packages/tree/master/net/v2ray-core应该正常。
 
 ## 注意
 
